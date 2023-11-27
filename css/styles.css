@@ -1,10 +1,25 @@
-
-
-.attribution {
-  font-size: 11px;
-  text-align: center;
+body {
+  background-color: hsl(234, 29%, 20%);
+  justify-content: center;
+  align-items: center;
+  margin: 0;
 }
 
-.attribution a {
-  color: hsl(228, 45%, 44%);
+.my-container {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 20px;
+  display: flex;
+  max-width: max-content;
+}
+
+.box {
+  padding: 20px;
+}
+
+.box img {
+  max-width: 100%;
+}
+
+#success-message {
+  display: none;
 }
