@@ -93,6 +93,8 @@ button:hover {
     display: flex;
     background-color: #36384d;
     justify-content: center;
+    align-items: center;
+    height: 100vh;
   }
 
   #content {
@@ -101,7 +103,6 @@ button:hover {
     gap: 60px;
     justify-content: space-between;
     border-radius: 36px;
-    /* margin: 50px; */
     padding: 20px;
     height: 641px;
     width: 928px;
