@@ -64,6 +64,7 @@ button:hover {
 #submitted-content {
   display: none;
   background-color: white;
+  margin: 16px;
 }
 
 #submitted-content > img {
@@ -100,10 +101,11 @@ button:hover {
     gap: 60px;
     justify-content: space-between;
     border-radius: 36px;
-    margin: 50px;
+    /* margin: 50px; */
     padding: 20px;
     height: 641px;
     width: 928px;
+    margin: 0 auto;
     box-shadow: 0px 15px 60px 0px rgba(0, 0, 0, 0.25);
   }
 
