@@ -1,0 +1,134 @@
+@font-face {
+  font-family: "Roboto";
+  src: url(assets/fonts/Roboto-Regular.ttf);
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-size: 56px;
+  color: #242742;
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+
+ul {
+  list-style-image: url(assets/images/icon-list.svg);
+  margin-bottom: 30px;
+  padding-left: 24px;
+}
+
+li {
+  padding-bottom: 10px;
+}
+
+button {
+  width: 100%;
+  margin-top: 12px;
+  background-color: #242742;
+  color: white;
+  height: 56px;
+  border-radius: 8px;
+  border-width: 0;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+button:hover {
+  background: linear-gradient(204.47deg, #ff6a3a 0%, #ff527b 100%);
+  box-shadow: 0px 16px 32px 0px rgba(255, 97, 85, 0.5);
+}
+
+.textfield-container > label {
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+  font-size: 12px;
+  color: #242742;
+}
+
+.textfield-container > input {
+  height: 50px;
+  border-radius: 8px;
+  border: 1px solid #19182b40;
+  padding-left: 24px;
+}
+
+.textfield-container > input:focus {
+  border: 0.5px solid #242742;
+  padding-left: 24px;
+}
+
+#submitted-content {
+  display: none;
+  background-color: white;
+}
+
+#submitted-content > img {
+  width: 64px;
+  height: 64px;
+  margin-bottom: 20px;
+}
+
+#content {
+  background-color: white;
+}
+
+@media (max-width: 600px) {
+  body {
+    padding: 0;
+    margin: 0;
+  }
+
+  .main {
+    padding: 16px;
+  }
+}
+
+@media (min-width: 600px) {
+  body {
+    display: flex;
+    background-color: #36384d;
+    justify-content: center;
+  }
+
+  #content {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 60px;
+    justify-content: space-between;
+    border-radius: 36px;
+    margin: 50px;
+    padding: 20px;
+    height: 641px;
+    width: 928px;
+    box-shadow: 0px 15px 60px 0px rgba(0, 0, 0, 0.25);
+  }
+
+  #submitted-content {
+    padding: 46px;
+    max-width: 504px;
+    border-radius: 36px;
+    margin: 50px;
+    box-shadow: 0px 15px 60px 0px rgba(0, 0, 0, 0.25);
+  }
+
+  .main {
+    padding-left: 50px;
+    align-self: center;
+    justify-content: space-around;
+  }
+
+  .illustration {
+    content: url(assets/images/illustration-sign-up-desktop.svg);
+  }
+}
+
+.textfield-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+  font-family: sans-serif;
+}
